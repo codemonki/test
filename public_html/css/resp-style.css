@@ -71,32 +71,36 @@ img:hover {
 .text1 {
     margin-top:10pt;
     margin-bottom:10pt;
-    color: #8C9CA5;
+    color: #0288cc;
     letter-spacing:-1pt;
     font-size:30pt;
     font-weight:bold;
     text-shadow:1px 1px 1px rgba(0,0,0,0.7);
 }
 .text2 {
-    color: rgb(0, 185, 232);
-    font-size: 32pt;
+    color: #f02f17;
+    font-size: 30pt;
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     margin-bottom: 8pt;
 }
 #timer{
-    background: #e73827;
-    background: -moz-linear-gradient(top,  #e73827 0%, #f85032 50%, #f6290c 51%, #f02f17 71%, #e73827 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e73827), color-stop(50%,#f85032), color-stop(51%,#f6290c), color-stop(71%,#f02f17), color-stop(100%,#e73827));
-    background: -webkit-linear-gradient(top,  #e73827 0%,#f85032 50%,#f6290c 51%,#f02f17 71%,#e73827 100%);
-    background: -o-linear-gradient(top,  #e73827 0%,#f85032 50%,#f6290c 51%,#f02f17 71%,#e73827 100%);
-    background: -ms-linear-gradient(top,  #e73827 0%,#f85032 50%,#f6290c 51%,#f02f17 71%,#e73827 100%);
-    background: linear-gradient(to bottom,  #e73827 0%,#f85032 50%,#f6290c 51%,#f02f17 71%,#e73827 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', endColorstr='#e73827',GradientType=0 );
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #37B15B),
+        color-stop(0.62, #53D577)
+        );
+    background-image: -o-linear-gradient(bottom, #37B15B 0%, #53D577 62%);
+    background-image: -moz-linear-gradient(bottom, #37B15B 0%, #53D577 62%);
+    background-image: -webkit-linear-gradient(bottom, #37B15B 0%, #53D577 62%);
+    background-image: -ms-linear-gradient(bottom, #37B15B 0%, #53D577 62%);
+    background-image: linear-gradient(to bottom, #37B15B 0%, #53D577 62%);
     display:inline-block;
     padding:10pt;
     border-radius:6pt;
-    color:#fff;
+    color:#006699;
     font-size:30pt;
 }
 #seconds {
