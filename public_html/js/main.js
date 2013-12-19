@@ -21,3 +21,8 @@ function arrow()
 {
     //$('.panel button.continue').addClass('active');
 }
+function level2()
+{
+    $('.panel#number').hide();
+    $('.panel#pin').show();
+}

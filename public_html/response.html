@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/resp-style.css" />
+        <script type="text/javascript">
+            var seconds_left = 30;
+            var interval = setInterval(function() {
+                if (seconds_left > 10) {
+                    document.getElementById('seconds').innerHTML = --seconds_left;
+                }
+                else if (seconds_left > 0) {
+                    document.getElementById('seconds').innerHTML = "0" + --seconds_left;
+                } else {
+                    seconds_left = 30;
+                }
+            }, 1000);
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="head">
+                Oferta tymczasowa!
+            </div>
+            <div class="text1">
+                Zobacz prosze ponizej ekskluzywne oferty,
+                <br>
+                które równiez moga Ci sie spodobac!
+            </div>
+            <div class="text2">
+                Prosze odpowiedz TERAZ
+                <br>
+                zanim wydamy ta ekskluzywna oferte innej osobie!
+                <br>
+            </div>
+            <div id="timer">
+                00
+            </div>
+            :
+            <div id="timer">
+                <div id="seconds">29</div>
+            </div>
+            <p></p>
+            <div class="offers">
+                <a href="http://yepdigital.go2cloud.org/aff_c?offer_id=946&aff_id=1232&aff_sub=y1232&aff_sub2==169">
+                    <img width="100%" src="offer-images/300x250a.gif"></img>
+                </a>
+            </div>
+            <div class="offers">
+                <a href="http://yepdigital.go2cloud.org/aff_c?offer_id=946&aff_id=1232&aff_sub=y1232&aff_sub2==169">
+                    <img width="100%" src="offer-images/300x250b.gif"></img>
+                </a>
+            </div>
+            <div class="offers">
+                <a href="http://yepdigital.go2cloud.org/aff_c?offer_id=946&aff_id=1232&aff_sub=y1232&aff_sub2==169">
+                    <img width="100%" src="offer-images/300x250c.gif"></img>
+                </a>
+            </div>
+            <div class="date">
+                Date:
+                <script type="text/javascript">
+                    var currentTime = new Date()
+                    var month = currentTime.getMonth() + 1
+                    var day = currentTime.getDate()
+                    var year = currentTime.getFullYear()
+                    document.write(day + "-" + month + "-" + year)
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
