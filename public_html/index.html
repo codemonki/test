@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -21,7 +23,14 @@
                 <img src="images/prize.jpg" />
             </div>
             <div class="interaction">
-
+                <div id="question" class="panel">
+                    <div class="question">
+                        Kto produkuje nowy iPhone?
+                    </div>
+                    <button id="ans1" class="answer" correct="true" type="button">Apple</button>
+                    <div id="message" style="position: absolute; top: 200px; font-size: 70pt; color: rgb(255, 0, 0); margin-left: 170px; display: none;"></div>
+                    <button id="ans2" class="answer" onclick="incorrectAnswer();" type="button">Samsung</button>
+                </div>
             </div>
         </div>
         <div class="bottom">
@@ -34,9 +43,9 @@
             <br>
             <br>
             <div style="text-align: center; margin-bottom: 20px;">
-            <a href="http://gamobila.com/pl/info/siteterms14e0.html">Warunki</a>
-            <a href="http://gamobila.com/pl/info/contact.html">Kontakt</a>
-            <a href="http://gamobila.com/pl/info/faq.html">FAQ</a>
+                <a href="http://gamobila.com/pl/info/siteterms14e0.html">Warunki</a>
+                <a href="http://gamobila.com/pl/info/contact.html">Kontakt</a>
+                <a href="http://gamobila.com/pl/info/faq.html">FAQ</a>
             </div>
         </div>
     </body>
