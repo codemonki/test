@@ -19,5 +19,5 @@ function correctAnswer()
 }
 function arrow()
 {
-   $('.panel button.continue').addClass('active');
+    //$('.panel button.continue').addClass('active');
 }
