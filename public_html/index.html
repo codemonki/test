@@ -27,10 +27,37 @@
                     <div class="question">
                         Kto produkuje nowy iPhone?
                     </div>
-                    <button id="ans1" class="answer" correct="true" type="button">Apple</button>
+                    <button id="ans1" class="answer" onclick="correctAnswer();" type="button">Apple</button>
                     <div id="message" style="position: absolute; top: 200px; font-size: 70pt; color: rgb(255, 0, 0); margin-left: 170px; display: none;"></div>
                     <button id="ans2" class="answer" onclick="incorrectAnswer();" type="button">Samsung</button>
                 </div>
+
+                <div id="number" class="panel">
+                    <div class="chance_text">
+                        Podaj swój numer telefonu, aby miec szanse na wygranie nowego iPhone‘a 5S!
+                    </div>
+                    <div align="center">
+                        <input id="phoneNumber" class="" type="text" value=""></input>
+                        <div class="styled-select">
+                            <select class="validate" onChange="arroW();" id="operator">
+                                <option selected="selected" value="NONE">Wybierz swojego operatora</option>
+                                <option value="Plus">Plus</option>
+                                <option value="Era">T-mobile</option>
+                                <option value="Orange">Orange</option>
+                                <option value="Play">Play</option>
+                            </select>
+                        </div>
+                        <br>
+                        <button id="continue_number" class="continue" type="button">DALEJ</button>
+                        <br>
+                        <div class="legal3"></div>
+                    </div>
+                    <br></br>
+
+                </div>
+
+
+
             </div>
         </div>
         <div class="bottom">

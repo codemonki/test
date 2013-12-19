@@ -12,3 +12,12 @@ function incorrectAnswer()
     }, 1800); // 3 seconds later, hide
     // and clear the message
 }
+function correctAnswer()
+{
+    $('.panel').hide();
+    $('.panel#number').show();
+}
+function arrow()
+{
+   $('.panel button.continue').addClass('active');
+}
