@@ -17,9 +17,10 @@ function correctAnswer()
     $('.panel').hide();
     $('.panel#number').show();
 }
-function arrow()
+function arroW()
 {
     //$('.panel button.continue').addClass('active');
+    //do nothing function
 }
 function level2()
 {
