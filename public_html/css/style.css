@@ -108,13 +108,10 @@ a {
     border: 1px solid #2C6700;
     font-size: 30px;
     font-weight: normal;
-    /* background: #68acff; */
     background: -moz-linear-gradient(top,  #92CD00, #2C6700 100%);
-    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#68acff), color-stop(100%,#0777ef)); */
     background: -webkit-linear-gradient(top, #92CD00, #2C6700 100%);
     background: -o-linear-gradient(top,  #92CD00, #2C6700 100%);
     background: -ms-linear-gradient(top,  #92CD00, #2C6700 100%);
-    /* background: linear-gradient(to bottom,  #68acff 0%,#0777ef 100%); */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68acff', endColorstr='#0777ef',GradientType=0 );
 }
 .panel#question .answer:hover{
