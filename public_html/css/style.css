@@ -42,7 +42,7 @@ a {
 .bottom {
     color: rgb(153, 153, 153);
     font-size: 12pt;
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);*/
     width: 1070px;
     margin-left: auto;
     margin-right: auto;
