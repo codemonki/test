@@ -78,7 +78,7 @@ a {
     background: #DCCCB3;
     background: -moz-linear-gradient(top,  #ffffff 1%, #DCCCB3 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(100%,#DCCCB3));
-    background: -webkit-linear-gradient(top,  #ffffff 1%,#DCCCB3 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 1%,#ffffff 100%);
     background: -o-linear-gradient(top,  #ffffff 1%,#DCCCB3 100%);
     background: -ms-linear-gradient(top,  #ffffff 1%,#DCCCB3 100%);
     background: linear-gradient(to bottom,  #ffffff 1%,#DCCCB3 100%);
@@ -100,7 +100,7 @@ a {
     text-align: center;
 }
 .panel#question .answer{
-    border-radius:30px;
+    border-radius:15px;
     margin:10px 10px 10px 10px;
     color:#fff;
     width:300px;
@@ -123,12 +123,12 @@ a {
     text-decoration:underline;
     background-repeat:no-repeat;
     background-position:right;
-    border-radius:30px;
+    border-radius:15px;
     margin:10px 10px 10px 10px;
-    color: #68acff;
+    color: #2C6700;
     width:300px;
     height:50px;
-    border: 1px solid #68acff;
+    border: 1px solid #2C6700;
     font-size: 30px;
     font-weight: normal;
 }
@@ -150,7 +150,7 @@ a {
     padding: 7px 0px 0px 4px;
 }
 .panel button.continue {
-    border-radius:30px;
+    border-radius:15px;
     margin:10px 10px 10px 10px;
     color:#fff;
     width:300px;
@@ -168,7 +168,7 @@ a {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68acff', endColorstr='#0777ef',GradientType=0 );
 }
 .panel button.continue.active {
-    border-radius:30px;
+    border-radius:15px;
     margin:10px 10px 10px 10px;
     color:#fff;
     width:300px;
@@ -192,12 +192,12 @@ a {
     text-decoration:underline;
     background-repeat:no-repeat;
     background-position:right;
-    border-radius:30px;
+    border-radius:15px;
     margin:10px 10px 10px 10px;
-    color:#0288cc;
+    color: #2C6700;
     width:300px;
     height:50px;
-    border:1px solid #0288cc;
+    border: 1px solid #2C6700;
     font-size: 30px;
     font-weight: normal;
 }
