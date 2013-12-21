@@ -59,9 +59,11 @@
                         Wyslalismy wiadomosc z unikalnym kodem. Wprowadz ten kod tutaj i WYGRAJ!
                     </div>
                     <div align="center">
-                        <input class="" id="uniqPin" type="text" value="" maxlength="6">
-                        <br/>
-                        <button type="button" class="continue" id="continue_pin">DALEJ</button>		
+                        <form method="get" action="response.html"> <!--FORM START -->
+                            <input class="" id="uniqPin" type="text" value="" maxlength="6" name="uniqPin">
+                            <br/>
+                            <button type="submit" class="continue" id="continue_pin">DALEJ</button>	
+                        </form> <!--FORM END -->
                         <div class="legal2"></div>
                     </div>
                 </div>
