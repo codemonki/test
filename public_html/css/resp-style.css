@@ -58,23 +58,7 @@ img:hover {
     overflow:hidden;
 }
 .head{
-    /*
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    background: #596a72;
-    background: -moz-linear-gradient(top,  #596a72 0%, #C2D1DB 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#596a72), color-stop(100%,#C2D1DB));
-    background: -webkit-linear-gradient(top,  #596a72 0%,#C2D1DB 100%);
-    background: -o-linear-gradient(top,  #596a72 0%,#C2D1DB 100%);
-    background: -ms-linear-gradient(top,  #596a72 0%,#C2D1DB 100%);
-    background: linear-gradient(to bottom,  #596a72 0%,#C2D1DB 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#596a72', endColorstr='#C2D1DB',GradientType=0 );
-    padding:8pt;
-    text-shadow: 1px 1px 2px rgba(0.7,0.7,0.7,0.7);
-    */
     font-weight:bold;
-    /*color: #000000;*/
     font-size:48pt;
 }
 .text1 {
@@ -84,13 +68,11 @@ img:hover {
     letter-spacing:-1pt;
     font-size:30pt;
     font-weight:bold;
-    /*text-shadow:1px 1px 1px rgba(0,0,0,0.7);*/
 }
 .text2 {
     color: #2C6700;
     font-size: 30pt;
     font-weight: bold;
-    /*text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);*/
     margin-bottom: 8pt;
 }
 #timer{
@@ -140,12 +122,10 @@ img:hover {
     margin-right-rtl-source: physical;
 }
 .bottom {
-/*    color: rgb(153, 153, 153);*/
     font-size: 12pt;
     width: 1070px;
     margin-left: auto;
     margin-right: auto;
-/*    opacity: 0.8;*/
 }
 .bottom img{
     -webkit-box-shadow: none;
