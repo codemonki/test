@@ -140,12 +140,12 @@ img:hover {
     margin-right-rtl-source: physical;
 }
 .bottom {
-    color: rgb(153, 153, 153);
+/*    color: rgb(153, 153, 153);*/
     font-size: 12pt;
     width: 1070px;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.8;
+/*    opacity: 0.8;*/
 }
 .bottom img{
     -webkit-box-shadow: none;
